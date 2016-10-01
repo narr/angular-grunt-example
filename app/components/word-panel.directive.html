@@ -1,0 +1,8 @@
+<span ng-repeat="word in vm.words track by $index" ng-class="{
+  word: true,
+  active: vm.info.activeIndex === $index,
+  correct: word.correct === true,
+  incorrect: word.correct === false
+}">
+  {{word.text}}
+</span>

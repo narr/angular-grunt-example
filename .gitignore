@@ -1,0 +1,17 @@
+# MAC OS
+.DS_Store
+
+# VSC
+.history
+
+# NPM
+node_modules
+
+# base
+tmp
+temp
+dist
+gh-pages
+index.tmpl
+coverage
+*.log

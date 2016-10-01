@@ -1,0 +1,49 @@
+// Place your settings in this file to overwrite the default settings
+{
+  //-------- Beautify config --------
+  // File extensions that can be beautified as CSS.
+  "beautify.CSSfiles": [
+    "css",
+    "scss"
+  ],
+  //-------- CSS configuration --------
+  // Controls CSS validation and problem severities.
+  // Enables or disables all validations
+  "css.validate": false,
+  // Controls the font size.
+  "editor.fontSize": 14,
+  // Controls if the editor will insert spaces for tabs.
+  // Accepted values:  "auto", true, false. If set to "auto",
+  // the value will be guessed when a file is opened.
+  "editor.insertSpaces": true,
+  // Controls whether the editor should render whitespace characters
+  "editor.renderWhitespace": true,
+  // Columns at which to show vertical rulers
+  "editor.rulers": [
+    80
+  ],
+  // Controls the rendering size of tabs in characters.
+  // Accepted values: "auto", 2, 4, 6, etc.
+  // If set to "auto", the value will be guessed when a file is opened.
+  "editor.tabSize": 2,
+  // Controls after how many characters the editor will wrap to the next line.
+  // Setting this to 0 turns on viewport width wrapping
+  "editor.wrappingColumn": 0,
+  //-------- Local history configuration --------
+  // A day number to purge local history. (0: no purge)
+  "local-history.daysLimit": 7,
+  // Configure glob patterns for excluding files and folders in searches.
+  // Inherits all glob patterns from the file.exclude setting.
+  "search.exclude": {
+    "**/node_modules": false,
+    "**/bower_components": false,
+    ".history": true
+  },
+  //-------- RelativePath extension configuration --------
+  // An array of glob keys to ignore when searching.
+  "relativePath.ignore": [
+    "**/*.dll",
+    "**/obj/**",
+    "**/objd/**"
+  ]
+}

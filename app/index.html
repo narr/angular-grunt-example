@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html lang="en" class="ie9">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Grunt-Angular-Example">
+  <title>Grunt-Angular-Example</title>
+  <link href="/asset/img/icon/ic.favicon.ico" rel="shortcut icon"
+    type="image/x-icon">
+  <link href="http://fonts.googleapis.com/css?family=Oxygen:300,400,700"
+    rel="stylesheet" type="text/css">
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <link href="components/word-game-view.css" rel="stylesheet" type="text/css">
+</head>
+
+<body ng-app="narrWordGame">
+  <narr-word-game-view></narr-word-game-view>
+  <script src="/node_modules/angular/angular.min.js"></script>
+  <script src="/node_modules/angular-animate/angular-animate.min.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="components/index.js"></script>
+  <script src="components/word-game-view.directive.js"></script>
+  <script src="components/word-panel.directive.js"></script>
+  <script src="components/word-input.directive.js"></script>
+  <script src="components/word-timer.directive.js"></script>
+  <script src="services/word.service.js"></script>
+</body>
+
+</html>
