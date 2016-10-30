@@ -18,8 +18,8 @@
   <link href="dist/narr-word-game.min.css" rel="stylesheet" type="text/css">
 </head>
 
-<body ng-clock ng-app="exampleApp" ng-controller="ExampleController as ex">
-  <div class="title">{{ex.txt}}</div>
+<body ng-app="exampleApp" ng-controller="ExampleController as ex">
+  <div ng-clock class="title">{{ex.txt}}</div>
   <narr-word-game-view></narr-word-game-view>
   <script src="example/angular.min.js"></script>
   <script src="example/angular-animate.min.js"></script>
