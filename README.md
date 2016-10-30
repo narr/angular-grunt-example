@@ -1,6 +1,9 @@
 # grunt-angular-example
 
-## an angularjs version(with grunt) of [typerooni](https://github.com/domgetter/typerooni), a simple word game
+### an angularjs version(with grunt) of [typerooni](https://github.com/domgetter/typerooni), a simple word game
+
+#### [GitHub Pages for this project](https://narr.github.io/grunt-angular-example/)
+#### [GitHub Pages for typerooni](https://domgetter.github.io/typerooni/)
 
 <br>
 

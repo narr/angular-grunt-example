@@ -10,7 +10,7 @@ node_modules
 # base
 tmp
 temp
-dist
+## dist
 gh-pages
 index.tmpl
 coverage
