@@ -16,11 +16,12 @@
     type="image/x-icon">
   <link href="index.css" rel="stylesheet" type="text/css">
   <link href="components/word-game-view.css" rel="stylesheet" type="text/css">
+  <!-- to prevent the Angular html template from being briefly displayed -->
+  <script src="/node_modules/angular/angular.min.js"></script>
 </head>
 
 <body ng-app="narrWordGame">
   <narr-word-game-view></narr-word-game-view>
-  <script src="/node_modules/angular/angular.min.js"></script>
   <script src="/node_modules/angular-animate/angular-animate.min.js"></script>
   <script src="app.module.js"></script>
   <script src="app.config.js"></script>
