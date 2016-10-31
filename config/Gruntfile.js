@@ -38,6 +38,7 @@ module.exports = function(grunt) {
         src: [
           'app/**/*.js',
           'example/**/*.js',
+          '!example/**/*.min.*'
         ]
       }
     },

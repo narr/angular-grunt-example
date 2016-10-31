@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "grunt": "grunt",
-    "grunt-task": "grunt --gruntfile './config/Gruntfile.js' --base './'",
+    "grunt-task": "grunt --gruntfile ./config/Gruntfile.js --base ./",
     "test": "karma start ./config/karma.conf.js",
     "test:one": "rm -rf ./coverage && npm run test -- --single-run",
     "build": "npm run test:one && npm run grunt-task dist"
