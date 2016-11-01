@@ -14,17 +14,23 @@
   <title>Grunt-Angular-Example</title>
   <link href="asset/img/icon/ic.favicon.ico" rel="shortcut icon"
     type="image/x-icon">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet">
   <link href="example/index.css" rel="stylesheet" type="text/css">
   <link href="dist/narr-word-game.min.css" rel="stylesheet" type="text/css">
   <script src="example/angular.min.js"></script>
 </head>
 
 <body ng-app="exampleApp" ng-controller="ExampleController as ex">
-  <div class="ng-cloak title">{{ex.txt}}</div>
+  <div class="ng-cloak title" tooltip="{{ex.tooltip}}" tooltip-trigger>
+    {{ex.txt}}</div>
+  <button class="btn btn-default hint" popover-placement="top"
+    popover="{{ex.hint}}" popover-trigger>Hint</button>
   <narr-word-game-view></narr-word-game-view>
   <script src="example/angular-animate.min.js"></script>
-  <script src="example/index.js"></script>
+  <script src="example/ui-bootstrap-tpls.js"></script>
   <script src="dist/narr-word-game.min.js"></script>
+  <script src="example/index.js"></script>
 </body>
 
 </html>

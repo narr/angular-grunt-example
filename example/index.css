@@ -166,8 +166,16 @@ footer {
 
 .title {
   margin-top: 100px;
-  margin-bottom: -50px;
   color: cadetblue;
   font-size: 36px;
   text-align: center;
+}
+
+* {
+  box-sizing: initial;
+}
+
+.hint {
+  display: block;
+  margin: 50px auto -50px;
 }

@@ -3,6 +3,7 @@
 
   angular
     .module('exampleApp', [
+      'ui.bootstrap',
       'narrWordGame'
     ]);
 
@@ -10,5 +11,7 @@
     .controller('ExampleController', function() {
       var vm = this;
       vm.txt = 'Word Game Application';
+      vm.tooltip = 'Please play game..!!';
+      vm.hint = 'Type fast..!!';
     });
 })();
